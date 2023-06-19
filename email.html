@@ -112,8 +112,11 @@
         /*////// FRAMEWORK STYLES //////*/
 
         .emailLogo {
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: #ffffff;
         }
 
         .mcnPreviewText {
@@ -441,6 +444,19 @@
             </td>
         </tr>
         <tr>
+            <td style="padding-top: 10px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <!-- LOGO HEADER // -->
+                    <tr>
+                        <th align="left" valign="top" class="emailLogo">
+                            <a href="https://crystal-lang.org/"><img border=0 src="crystal.png" width="145"></a>
+                        </th>
+                    </tr>
+                    <!-- // LOGO HEADER -->
+                </table>
+            </td>
+        </tr>
+        <tr>
             <td align="center" valign="top" id="bodyCell">
                 <!-- EMAIL CONTAINER // -->
                 <!--
@@ -449,17 +465,6 @@
                     that spans the width of the page.
                 -->
                 <table border="0" cellpadding="0" cellspacing="0" width="100%" id="emailBody">
-                    <thead>
-                    <!-- LOGO HEADER // -->
-                    <tr>
-                        <th align="left" valign="top" class="emailLogo">
-                            <a href="https://crystal-lang.org/"><img border=0 src="crystal.png" width="145"></a>
-                        </th>
-                    </tr>
-                    <!-- // LOGO HEADER -->
-
-
-                    </thead>
                     <tbody>
                     <!-- MODULE NEWS // -->
                     <tr mc:repeatable="module" mc:variant="news">
